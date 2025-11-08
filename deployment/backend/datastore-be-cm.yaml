@@ -5,4 +5,4 @@ metadata:
   namespace: backend
 data:
   mysqlHost: jdbc:mysql://database-1.caje0wqsuibo.us-east-1.rds.amazonaws.com:3306/datastore?createDatabaseIfNotExist=true
-  mysqlUname: root
+  mysqlUname: admin

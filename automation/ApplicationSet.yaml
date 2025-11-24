@@ -9,7 +9,7 @@ spec:
         mergeKeys: [ "path.basename" ]
         generators:
           - git:
-              repoURL: https://github.com/shivagande26/argocd-applications.git
+              repoURL: https://github.com/vishnuthatiparthi/argocd-applications.git
               revision: main
               directories:
                 - path: datastore-be

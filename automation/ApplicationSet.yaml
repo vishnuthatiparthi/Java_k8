@@ -26,7 +26,7 @@ spec:
     spec:
       project: default # ArgoCD project (make sure this project exists)
       source:
-        repoURL: https://github.com/vishnuthatiparthi/Kubernetes.git # Kubernetes manifests repository
+        repoURL: https://github.com/vishnuthatiparthi/DataStore-Kubernetes-ArgoCD.git # Kubernetes manifests repository
         targetRevision: main # Git branch to track
         path: '{{path.basename}}' # Dynamically point to subdirectory in Kubernetes.git
       destination:
